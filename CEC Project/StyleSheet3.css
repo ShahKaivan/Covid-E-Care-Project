@@ -1,0 +1,99 @@
+﻿.form
+{
+    border-color: #FFFFFF;
+    width: 349px;
+    height: 374px;
+    position: absolute;
+    background-color:Black;
+    top: 135px;
+    left: 783px;
+    border-width: 10px;
+    padding: 25px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.form img
+{
+    height:450px;
+    width:370px;
+    margin-left:0px;
+}
+
+
+.form h2
+{
+    width: 220px;
+    font-family: Sans-Serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-width: 10px;
+    margin: 8px 2px 2px 2px;
+    padding: 8px;
+}
+
+.form input
+{
+    width: 220px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Sans-Serif;
+}
+
+.form input:focus
+{
+    color:#fff;
+    font-family: Arial;
+}
+
+.btnn
+{
+    width: 240px;
+    height: 40px;
+    background: #ff2700;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-width: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnn:hover
+{
+    background: #fff;
+    color: #ff2700;
+}
+
+.btnn a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.form .link
+{
+    font-family: Arial, Helvetica-Narrow, Sans-Serif;
+    font-size: 17PX;
+    padding-top: 20px;
+    text-align: center;
+}
+.form p.link
+{
+    font-family: 'Times New Roman' , Times, serif;
+}
+.form .link a
+{
+    text-decoration: none;
+    color: #ff7200;
+    font-family: 'Times New Roman' , Times, serif;
+}

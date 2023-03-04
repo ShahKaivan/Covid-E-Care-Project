@@ -1,0 +1,69 @@
+﻿<%@ Master Language="VB" CodeFile="Login2.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html style="overflow-x:hidden" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Covid E-Care(CEC)</title>
+     <link rel="Stylesheet" href="styleSheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class = "main">
+    <div class="navbar">
+    <div class="her">
+    <h2 class = "logo"><img src="Image/logo.jpg" />Covid-E-Care</h2>
+<div class="menu">
+
+
+    <asp:Button ID="Button1" runat="server" CssClass="menu" Height="35px" 
+        Text="HOME" Width="93px" BackColor="Black" BorderColor="White" 
+        ForeColor="#FFFFCC" PostBackUrl="~/home-2.aspx" />
+    <asp:DropDownList ID="DropDownList1" runat="server" Height="35px" Width="120px" 
+        BackColor="Black" BorderColor="White" ForeColor="#FFFFCC" 
+        AutoPostBack="True">
+        <asp:ListItem>SERVICE</asp:ListItem>
+        <asp:ListItem>HOME-ISOLATION</asp:ListItem>
+        <asp:ListItem>PRECUATION</asp:ListItem>
+        <asp:ListItem>COVID CASES</asp:ListItem>
+        <asp:ListItem>COVID-RESOURCES</asp:ListItem>
+        <asp:ListItem>Vaccination</asp:ListItem>
+    </asp:DropDownList>
+    <asp:Button ID="Button3" runat="server" CssClass="menu" Height="35px" 
+        Text="ABOUT US" Width="123px" BackColor="Black" BorderColor="White" 
+        ForeColor="#FFFFCC" PostBackUrl="~/AboutUs.aspx"/>
+    <asp:Button ID="Button4" runat="server" CssClass="menu" Height="35px" 
+        Text="CONTACT US" Width="168px" BackColor="Black" BorderColor="White" 
+        ForeColor="#FFFFCC" PostBackUrl="~/Contact.aspx" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox1" runat="server" BackColor="Black" 
+        BorderColor="#FF6600" ForeColor="White" Width="137px"></asp:TextBox>
+    <asp:Button ID="Button6" runat="server" CssClass="navbar" Height="23px" 
+        Text="Search" Width="84px" BackColor="#FF6600" ForeColor="White" />
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Image ID="Image1" class="logout" runat="server" ImageUrl="~/Image/logout.jpeg" />
+    &nbsp;<asp:LinkButton ID="LinkButton1" runat="server" 
+        ForeColor="White">LogOut</asp:LinkButton>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+ </div>
+
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+       
+        
+ </div>
+</div>
+        
+</div>
+<br /><br /><br /><br /><br /><br />
+     <center>
+    <div class="footer-content">
+   
+    <p>Covid-E-Care<br />This is only for you &<br />that helps you anytime and anywhere 24x7 <br /> &copy;2022 covid-e-care. designed by<span style="text-align: center">@Kaivan @Kishan @Amiras</span></p>
+    </div>
+    </center>
+    </form>
+</body>
+</html>

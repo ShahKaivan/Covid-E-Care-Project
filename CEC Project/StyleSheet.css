@@ -1,0 +1,250 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.menu
+{
+    margin-left:35px;
+    margin-top:8px;
+}
+.main
+{
+    width: 1998px;
+    height: 722px;
+
+}
+.logout
+{
+    height:30px;
+    margin-top:10px;
+    width:30px;
+}
+.drop
+{
+    border-style:solid;
+    border-color:White;
+}
+.her
+{
+    height: 58px;
+    width:150%;
+    background-color: #000000;
+}
+.navbar
+{
+    width: 1250px;
+    height: 54px;
+    margin: auto 0px;
+    
+}
+.logo img
+{
+    height: 45px;
+    width: 65px;
+    margin-left: 0px;
+    margin-top: 0px;    
+}
+.logo
+{
+    
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    width: 299px;
+    height: 46px;
+    font-style: normal;
+    vertical-align: top;
+    margin-left: 35px;
+    margin-top: 0px;
+}
+.menu
+{
+    margin-left: 0px;
+    margin-top: 8px;
+    background-color: #000000;
+    }
+
+.content
+{
+    width: 1308px;
+    height: 3px;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    top: 155px;
+    left: -349px;
+}
+
+.content h1
+{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 150px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+    height: 209px;
+    color: #000000;
+    width: 1247px;
+    margin-bottom: 19px;
+}
+
+.content .par
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    padding-left: 150px;
+    line-height: 30px;
+    font-size: large;
+    color: #000000;
+}
+
+.content span
+{
+    color: #ff7200;
+    font-size: 60px;
+    font-style: italic;
+}
+
+.form
+{
+    border-color: #FFFFFF;
+    width: 349px;
+    height: 416px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: -78px;
+    left: 807px;
+    border-width: 10px;
+    padding: 25px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.form img
+{
+    height:450px;
+    width:370px;
+}
+
+
+.form h2
+{
+    width: 220px;
+    font-family: Sans-Serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-width: 10px;
+    margin: 8px 2px 2px 2px;
+    padding: 8px;
+}
+
+.form input
+{
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Sans-Serif;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+.form input:focus
+{
+    color:#fff;
+    font-family: Arial;
+}
+
+.btnn
+{
+    width: 240px;
+    height: 40px;
+    background: #ff2700;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-width: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnn:hover
+{
+    background: #fff;
+    color: #ff2700;
+}
+
+.btnn a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.form .link
+{
+    font-family: Arial, Helvetica-Narrow, Sans-Serif;
+    font-size: 17PX;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a
+{
+    text-decoration: none;
+    color: #ff7200;
+   
+}
+
+.liw
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+footer
+{
+    background-color:Black;
+    width: 1250px;
+    font-family: 'Open Sans-Serif';
+    color:White;
+}
+
+.footer-content
+{
+    display: inline;
+    text-align: center;
+    background-color:Black;
+    width: 1250px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color:White;
+  
+}
+
+.footer-content p
+{
+    margin: 10px auto;
+    line-height: 28px;
+    color:White;
+    font-size: 15px;
+    background-color:black;
+    height: 133px;
+}

@@ -1,0 +1,57 @@
+﻿<%@ Master Language="VB" CodeFile="Login.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html style="overflow-x:hidden" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Covid E-Care(CEC)</title>
+     <link rel="Stylesheet" href="styleSheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class = "main">
+    <div class="navbar">
+    <div class="her">
+    <h2 class = "logo"><img src="Image/logo.jpg" />Covid-E-Care</h2>
+<div class="menu">
+
+
+    <asp:Button ID="Button1" runat="server" CssClass="menu" Height="35px" 
+        Text="HOME" Width="93px" BackColor="Black" BorderColor="White" 
+        ForeColor="#FFFFCC" PostBackUrl="~/home.aspx" />
+    <asp:Button ID="Button2" runat="server" CssClass="menu" Height="35px" 
+        Text="USER LOGIN" Width="93px" BackColor="Black" BorderColor="White" 
+        ForeColor="#FFFFCC" PostBackUrl="~/Login1.aspx" />
+    <asp:Button ID="Button3" runat="server" CssClass="menu" Height="35px" 
+        Text="HOSPITAL LOGIN" Width="123px" BackColor="Black" BorderColor="White" 
+        ForeColor="#FFFFCC" PostBackUrl="~/HOS_Login.aspx" />
+    <asp:Button ID="Button4" runat="server" CssClass="menu" Height="35px" 
+        Text="MEDICAL_STORE LOGIN" Width="168px" BackColor="Black" BorderColor="White" 
+        ForeColor="#FFFFCC" PostBackUrl="~/MEDICAL_Login.aspx" />
+    <asp:Button ID="Button5" runat="server" CssClass="menu" Height="35px" 
+        Text="ADMIN LOGIN" Width="101px" BackColor="Black" ForeColor="#FFFFCC" 
+        BorderColor="White" PostBackUrl="~/Admin_Log.aspx" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox1" runat="server" BackColor="Black" 
+        BorderColor="#FF6600" ForeColor="White" Width="137px"></asp:TextBox>
+    <asp:Button ID="Button6" runat="server" CssClass="navbar" Height="23px" 
+        Text="Search" Width="84px" BackColor="#FF6600" ForeColor="White" />
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+ </div>
+
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+  </asp:ContentPlaceHolder>
+       
+        
+ </div>
+</div>
+        
+</div><br /><br /><br /><br /><br /><br />
+    <div class="footer-content" style="background-color:Black;">
+    <p>Covid-E-Care<br />This is only for you &<br />that helps you anytime and anywhere 24x7<br />&nbsp;&nbsp;&nbsp; copyright &copy;2022 covid-e-care. designed by<span style="text-align: center">@Kaivan @Kishan @Amiras</span></p>
+    </div>
+    </form>
+</body>
+</html>

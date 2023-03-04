@@ -1,0 +1,38 @@
+﻿body 
+{
+}
+
+
+input[type=text], select, textarea {
+   width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom:16px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 1803px;
+    height: 701px;
+    margin-top: 0px;
+}
+label{
+    font-weight: bold;
+}
+.submit
+{
+    background-color:#bfbfbf;
+}
+.submit:hover
+{
+    background-color:Black;
+    color:White;
+}
